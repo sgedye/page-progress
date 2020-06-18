@@ -24,10 +24,14 @@ const PageProgress = ({ color, height, ...props }) => {
   const styles = {
     progress: {
       marginTop: 0,
+      // marginLeft: -10,
+      // marginRight: -10,
       padding: 0,
-      background: color ? color : "skyblue",
+      // background: color ? color : "skyblue",
+      background: "linear-gradient(45deg, blue, darkgreen)",
+      // borderRadius: "10px",
       position: "fixed",
-      height: height ? height : 4,
+      height: height ? height : 5,
       width: width,
       top: 0,
       zIndex: 99,
